@@ -44,7 +44,9 @@ if __name__ == "__main__":
     # check_fermat(1,2,3,4)
     # check_fermat(4,3,2,2)
 
-    # test input Fermat
-    a, b, c, n = input_fermat()
-    check_fermat(a, b, c, n)
-    pass
+    # # test input Fermat
+    # a, b, c, n = input_fermat()
+    # check_fermat(a, b, c, n)
+
+    # test tuple input
+    check_fermat(*input_fermat())
