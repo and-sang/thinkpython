@@ -18,11 +18,6 @@ def is_power(a, b):
     else:
         return is_power(a//b, b)
 
-    
-
-
-    pass
-
 
 if __name__ == "__main__":
     # # test guardian
