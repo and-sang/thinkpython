@@ -19,6 +19,19 @@ def make_way():
             print(letter + suffix)
     return
 
+def count(s, c):
+    '''counter: 
+    take a string and a char as input,
+    return the number of instances of char in string
+    '''
+    counter = 0
+    for letter in s:
+        if letter.lower() == c:
+            counter += 1
+    return counter
+
 if __name__ == "__main__":
     # spell_backward('banana')
-    make_way()
+    # make_way()
+    print(count('banana', 'a'))
+    print(count('banAna', 'a'))
